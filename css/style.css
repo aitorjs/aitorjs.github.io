@@ -363,9 +363,6 @@ ul.footer-menu li a:hover {
     .side-menu ul li {
         margin: 0;
     }
-    .side-menu ul li a span.menu-title {
-        margin-right:0;
-    }
 }
 
 @media (max-width: 420px) {
