@@ -332,13 +332,26 @@ ul.footer-menu li a:hover {
         text-align: center;
         margin-top: 30px;
     }
-}
-
-@media (max-width: 720px) {
     #logo {
         display:none;
     }
+    ul {
+        display: block;
+    }
+    .side-menu ul li {
+        text-align: left;
+        margin: 10px 0 10px 40%;
+    }
 }
+
+/* @media (max-width: 720px) {
+    #logo {
+        display:none;
+    }
+    ul {
+        display: block;
+    }
+} */
 
 @media (max-width: 630px) {
     .side-menu ul li a span.menu-title {
@@ -356,14 +369,14 @@ ul.footer-menu li a:hover {
     }
 }
 
-@media (max-width: 540px) {
+/* @media (max-width: 540px) {
     .side-menu ul li a span.dot {
         display: none;
     }
     .side-menu ul li {
         margin: 0;
     }
-}
+} */
 
 @media (max-width: 420px) {
     .side-menu ul li a span.menu-title {
