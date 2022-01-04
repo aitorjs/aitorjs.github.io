@@ -1,28 +1,28 @@
 body {
 	font-family: 'Dosis', sans-serif;
-    /* color: #404142; */
-    color: #fff;
-    font-size: 16px;
+  /* color: #404142; */
+  color: #fff;
+  font-size: 16px;
 	letter-spacing: 1px;
 }
 h1, h2, h3, h4, h5, h6 {
-    /* font-weight: 200; */
-    font-weight: 500;
+  /* font-weight: 200; */
+  font-weight: 500;
 }
-ul {
+#bs-example-navbar-collapse-1 ul {
 	margin: 0;
 	padding: 0;
 	list-style: none;
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 a {
 	-webkit-transition: all 0.3s;
-  	-moz-transition: all 0.3s;
-  	transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
 }
 a:hover, a:focus, a:active, a:visited {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 /* Buttons override */
@@ -335,7 +335,7 @@ ul.footer-menu li a:hover {
     #logo {
         display:none;
     }
-    ul {
+    #bs-example-navbar-collapse-1 ul {
         display: block;
     }
     .side-menu ul li {
@@ -473,14 +473,14 @@ ul.footer-menu li a:hover {
   } */
   
   .content {
-    position: relative;
-    top: 100px;
-    left: 52%;
-    transform: translate(-57%, -21%);
-    height: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 160px;
     overflow: hidden;
     font-family: "Lato", sans-serif;
-    /* font-size: 35px; */
+    font-size: 35px;
     line-height: 40px;
     color: #ecf0f1;
   }
@@ -488,14 +488,14 @@ ul.footer-menu li a:hover {
     font-weight: 600;
     overflow: hidden;
     height: 40px;
-    /* padding: 0 40px; */
+    padding: 0 40px;
   }
   .content__container:before {
-    /* content: "["; */
+    content: "[";
     left: 0;
   }
   .content__container:after {
-    /* content: "]"; */
+    content: "]";
     position: absolute;
     right: 0;
   }
@@ -532,7 +532,6 @@ ul.footer-menu li a:hover {
   .content__container__list__item {
     line-height: 40px;
     margin: 0;
-    margin-left: 49%;
   }
   
   @-webkit-keyframes opacity {
