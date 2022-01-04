@@ -130,7 +130,7 @@ a:hover, a:focus, a:active, a:visited {
 	max-width: 180px;
 }
 .hero-header .btn {
-	margin-top: 5em;
+	margin-top: -5em;
 }
 .hero-header .rocket {
 	max-width: 100%;
@@ -472,9 +472,9 @@ ul.footer-menu li a:hover {
   } */
   
   .content {
-    position: absolute;
-    top: 50%;
-    left: 20.5%;
+    position: relative;
+    top: 200px;
+    left: 48.5%;
     transform: translate(-50%, -50%);
     height: 160px;
     overflow: hidden;
