@@ -480,7 +480,7 @@ ul.footer-menu li a:hover {
     height: 100px;
     overflow: hidden;
     font-family: "Lato", sans-serif;
-    font-size: 35px;
+    /* font-size: 35px; */
     line-height: 40px;
     color: #ecf0f1;
   }
@@ -488,7 +488,7 @@ ul.footer-menu li a:hover {
     font-weight: 600;
     overflow: hidden;
     height: 40px;
-    padding: 0 40px;
+    /* padding: 0 40px; */
   }
   .content__container:before {
     /* content: "["; */
