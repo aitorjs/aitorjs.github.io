@@ -111,7 +111,6 @@ a:hover, a:focus, a:active, a:visited {
 	transform: scale(1.8);
 }
 
-
 .hero-header {
 	background: #016cc7;
 	min-height: 480px;
@@ -131,7 +130,7 @@ a:hover, a:focus, a:active, a:visited {
 	max-width: 180px;
 }
 .hero-header .btn {
-	margin-top: 3em;
+	margin-top: 5em;
 }
 .hero-header .rocket {
 	max-width: 100%;
@@ -475,7 +474,7 @@ ul.footer-menu li a:hover {
   .content {
     position: absolute;
     top: 50%;
-    left: 50%;
+    left: 20.5%;
     transform: translate(-50%, -50%);
     height: 160px;
     overflow: hidden;
@@ -491,11 +490,10 @@ ul.footer-menu li a:hover {
     padding: 0 40px;
   }
   .content__container:before {
-    content: "[";
+    /* content: " llave en mano"; */
     left: 0;
   }
   .content__container:after {
-    content: "]";
     position: absolute;
     right: 0;
   }
@@ -528,6 +526,7 @@ ul.footer-menu li a:hover {
     animation-name: change;
     animation-duration: 10s;
     animation-iteration-count: infinite;
+    margin-left:308px;
   }
   .content__container__list__item {
     line-height: 40px;
