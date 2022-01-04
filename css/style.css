@@ -311,8 +311,20 @@ ul.footer-menu li a:hover {
     Custom Media Queries
 ======================================== */
 
-/* Mobile */
+/* Mobile and own style*/
 
+@media (max-width: 990px) { 
+  .content {
+    top: 150px !important;
+    left: 60.5% !important;
+  }
+}
+
+@media (max-width: 800px) { 
+  .content {
+    left: 46% !important;
+  }
+} 
 @media (max-width: 767px) {
     .hero-header {
         padding: 3em 1em 1em 1em;
@@ -343,6 +355,55 @@ ul.footer-menu li a:hover {
     }
 }
 
+@media (max-width: 740px) { 
+  .content {
+    font-size: 30px !important;
+  }
+  .content__container__list {
+    margin-left: 253px !important;
+  }
+}
+
+@media (max-width: 650px) { 
+  .content {
+    font-size: 25px !important;
+  }
+  .content__container__list {
+    margin-left: 196px !important;
+  }
+}
+
+@media (max-width: 555px) { 
+  .content__container {
+    padding: 0 10px !important;
+  }
+}
+
+@media (max-width: 525px) { 
+  .content {
+    font-size: 20px !important;
+  }
+  .content__container__list {
+    margin-left: 138px !important;
+}
+}
+@media (max-width: 423px) { 
+  .content {
+    font-size: 18px !important;
+  }
+  .content__container__list {
+    margin-left: 117px !important;
+}
+}
+
+@media (max-width: 400px) { 
+  .content {
+    font-size: 16px !important;
+  }
+  .content__container__list {
+    margin-left: 93px !important;
+}
+}
 /* @media (max-width: 720px) {
     #logo {
         display:none;
