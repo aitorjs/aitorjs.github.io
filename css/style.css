@@ -400,9 +400,9 @@ ul.footer-menu li a:hover {
   .content {
     font-size: 16px !important;
   }
-/*   .content__container__list {
-    margin-left: 93px !important;
-} */
+  .content__container__list {
+    margin-left: 97px !important;
+}
 }
 /* @media (max-width: 720px) {
     #logo {
@@ -578,7 +578,7 @@ ul.footer-menu li a:hover {
   }
   .content__container__list {
     margin-top: 0;
-    /* padding-left: 110px; */
+    padding-left: 110px;
     text-align: left;
     list-style: none;
     -webkit-animation-name: change;
