@@ -399,9 +399,10 @@ ul.footer-menu li a:hover {
 @media (max-width: 400px) { 
   .content {
     font-size: 16px !important;
+    background-color: red;
   }
   .content__container__list {
-    padding-left: 55px !important;
+    padding-left: 95px !important;
 }
 }
 /* @media (max-width: 720px) {
