@@ -360,7 +360,7 @@ ul.footer-menu li a:hover {
     font-size: 30px !important;
   }
   .content__container__list {
-    margin-left: 253px !important;
+    padding-left: 253px !important;
   }
 }
 
@@ -369,7 +369,7 @@ ul.footer-menu li a:hover {
     font-size: 25px !important;
   }
   .content__container__list {
-    margin-left: 196px !important;
+    padding-left: 196px !important;
   }
 }
 
@@ -384,7 +384,7 @@ ul.footer-menu li a:hover {
     font-size: 20px !important;
   }
   .content__container__list {
-    margin-left: 138px !important;
+    padding-left: 138px !important;
 }
 }
 @media (max-width: 423px) { 
@@ -392,7 +392,7 @@ ul.footer-menu li a:hover {
     font-size: 18px !important;
   }
   .content__container__list {
-    margin-left: 117px !important;
+    padding-left: 117px !important;
 }
 }
 
