@@ -399,7 +399,7 @@ ul.footer-menu li a:hover {
 @media (max-width: 400px) { 
   .content {
     font-size: 16px !important;
-    background-color: red;
+    /* background-color: red; */
   }
   .content__container__list {
     padding-left: 53px !important;
