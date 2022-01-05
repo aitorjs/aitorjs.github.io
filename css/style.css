@@ -360,7 +360,7 @@ ul.footer-menu li a:hover {
     font-size: 30px !important;
   }
   .content__container__list {
-    padding-left: 53px !important;
+    margin-left: 183px !important;
   }
 }
 
@@ -392,17 +392,17 @@ ul.footer-menu li a:hover {
     font-size: 18px !important;
   }
   .content__container__list {
-    padding-left: 117px !important;
+    margin-left: 117px !important;
 }
 }
 
 @media (max-width: 400px) { 
   .content {
     font-size: 16px !important;
-    background-color: red;
+    /* background-color: red; */
   }
   .content__container__list {
-    margin-left: 33px !important;
+    margin-left: 55px !important;
 }
 }
 /* @media (max-width: 720px) {
