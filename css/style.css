@@ -401,7 +401,7 @@ ul.footer-menu li a:hover {
     font-size: 16px !important;
   }
   .content__container__list {
-    margin-left: 55px !important;
+    padding-left: 55px !important;
 }
 }
 /* @media (max-width: 720px) {
