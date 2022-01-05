@@ -360,7 +360,7 @@ ul.footer-menu li a:hover {
     font-size: 30px !important;
   }
   .content__container__list {
-    padding-left: 253px !important;
+    margin-left: 253px !important;
   }
 }
 
@@ -369,7 +369,7 @@ ul.footer-menu li a:hover {
     font-size: 25px !important;
   }
   .content__container__list {
-    padding-left: 196px !important;
+    margin-left: 196px !important;
   }
 }
 
@@ -384,7 +384,7 @@ ul.footer-menu li a:hover {
     font-size: 20px !important;
   }
   .content__container__list {
-    padding-left: 138px !important;
+    margin-left: 138px !important;
 }
 }
 @media (max-width: 423px) { 
