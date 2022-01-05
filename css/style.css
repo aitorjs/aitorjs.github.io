@@ -400,9 +400,9 @@ ul.footer-menu li a:hover {
   .content {
     font-size: 16px !important;
   }
-  .content__container__list {
+/*   .content__container__list {
     margin-left: 93px !important;
-}
+} */
 }
 /* @media (max-width: 720px) {
     #logo {
