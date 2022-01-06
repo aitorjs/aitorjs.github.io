@@ -357,13 +357,13 @@ ul.footer-menu li a:hover {
 
 @media (max-width: 740px) { 
   .content {
-    font-size: 30px !important;
+    font-size: 35px !important;
     /* background-color: red !important; */
     margin-right: -42px !important;
     margin-left: 10px !important;
   }
   .content__container__list {
-    margin-left: 183px !important;
+    margin-left: 230px !important;
   }
   .hero-header {
     min-height: 325px !important;
@@ -375,10 +375,18 @@ ul.footer-menu li a:hover {
 
 @media (max-width: 650px) { 
   .content {
-    font-size: 25px !important;
+    font-size: 35px !important;
+    /* background-color: red !important; */
+    margin-right: -42px !important;
+    margin-left: 10px !important;
+    
   }
   .content__container__list {
-    margin-left: 196px !important;
+    margin-left: 230px !important;
+  }
+
+  .content__container {
+    margin-top: -5px;
   }
 }
 
@@ -416,7 +424,7 @@ ul.footer-menu li a:hover {
     margin-left: 103px !important;
   }
   .content__container {
-    margin-top: -12px;
+    margin-top: -8px;
   }
   .hero-header {
     min-height: 325px !important;
