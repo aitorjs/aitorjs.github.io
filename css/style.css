@@ -358,9 +358,18 @@ ul.footer-menu li a:hover {
 @media (max-width: 740px) { 
   .content {
     font-size: 30px !important;
+    /* background-color: red !important; */
+    margin-right: -42px !important;
+    margin-left: 10px !important;
   }
   .content__container__list {
     margin-left: 183px !important;
+  }
+  .hero-header {
+    min-height: 325px !important;
+  }
+  .content__container {
+    margin-top: -8px;
   }
 }
 
@@ -385,7 +394,7 @@ ul.footer-menu li a:hover {
   }
   .content__container__list {
     margin-left: 138px !important;
-}
+  }
 }
 @media (max-width: 423px) { 
   .content {
@@ -398,12 +407,22 @@ ul.footer-menu li a:hover {
 
 @media (max-width: 400px) { 
   .content {
-    font-size: 16px !important;
+    font-size: 21px !important;
     /* background-color: red; */
+    margin-right: -42px !important;
+    margin-left: 10px !important;
   }
   .content__container__list {
-    margin-left: 55px !important;
-}
+    margin-left: 103px !important;
+  }
+  .content__container {
+    margin-top: -12px;
+  }
+  .hero-header {
+    min-height: 325px !important;
+    padding: 0 1em 1em 1em !important;
+    /* margin-top:-50px; */
+  }
 }
 /* @media (max-width: 720px) {
     #logo {
