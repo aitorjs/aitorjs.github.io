@@ -404,13 +404,13 @@ ul.footer-menu li a:hover {
     margin-left: 138px !important;
   }
 }
-@media (max-width: 423px) { 
+@media (max-width: 429px) { 
   .content {
-    font-size: 18px !important;
+    font-size: 21px !important;
   }
   .content__container__list {
-    margin-left: 117px !important;
-}
+    margin-left: 105px !important;
+  }
 }
 
 @media (max-width: 400px) { 
