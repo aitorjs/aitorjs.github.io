@@ -268,28 +268,30 @@
               <input type="hidden" name="formID" value="220085645482356" />
               <input type="hidden" id="JWTContainer" value="" />
               <input type="hidden" id="cardinalOrderNumber" value="" />
-              
+              <!-- email -->
               <div class="form-group form-line jf-required" data-type="control_email" id="id_7">
                 <label for="email" class="col-sm-3 control-label">Email<sup>*</sup></label>
                 <div class="col-sm-9">
-                  <input type="email" id="input_7" name="q7_email" class="form-textbox validate[required, Email]" data-defaultvalue="" size="25" value="" placeholder="apodo@dominio.com" data-component="email" aria-labelledby="label_7" required="" />
+                  <input type="email" id="input_7" name="q7_email" style="color:white" class="form-textbox validate[required, Email]" data-defaultvalue="" size="25" value="" placeholder="apodo@dominio.com" data-component="email" aria-labelledby="label_7" required="" />
                   <div class="help-block with-errors pull-right"></div>
                   <span class="form-control-feedback" aria-hidden="true"></span>
                 </div>
               </div>
-
+              <!-- message -->
               <div class="form-group form-line jf-required" data-type="control_textarea" id="id_4">
                 <label for="mensaje" class="col-sm-3 control-label">Mensaje<sup>*</sup></label>
                 <div class="col-sm-9">
-                  <textarea id="input_4" class="form-textarea validate[required]" name="q4_message4" cols="28" rows="6" data-component="textarea" required="" aria-labelledby="label_4"></textarea>
+                  <textarea id="input_4" style="color:white" class="form-textarea validate[required]" name="q4_message4" cols="28" rows="6" data-component="textarea" required="" aria-labelledby="label_4"></textarea>
                   <div class="help-block with-errors pull-right"></div>
                   <span class="form-control-feedback" aria-hidden="true"></span>
                 </div>
               </div>
-                  
+              <!-- button -->
               <div id="cid_2" class="form-input-wide form-line" data-type="control_button" id="id_2"> 
-                <div style="text-align:center" data-align="center" class="form-buttons-wrapper form-buttons-center jsTest-button-wrapperField"> 
-                  <button id="input_2" type="submit" class="form-submit-button form-submit-button-none submit-button jf-form-buttons jsTest-submitField" data-component="button" data-content=""> Enviar </button>
+                <div class="form-group">
+                  <div class="col-sm-offset-3 col-sm-9">
+                    <button id="input_2" type="submit" class="form-submit-button form-submit-button-none submit-button jf-form-buttons jsTest-submitField btn btn-yellow pull-right" data-component="button" data-content=""> Enviar </button>
+                  </div>
                 </div>
               </div>
               <div style="display:none"> Should be Empty: <input type="text" name="website" value="" /> </div>
